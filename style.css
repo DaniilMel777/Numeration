@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background: linear-gradient( rgb(137, 0, 250), rgb(215, 186, 238));
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+  }
+
+/* Общие стили для кнопок */
+button {
+    margin: auto 20px auto 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #c800ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Эффект при наведении */
+  button:hover {
+    background-color: #ff00dd;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
